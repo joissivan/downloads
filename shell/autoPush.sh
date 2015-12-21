@@ -1,5 +1,5 @@
 #!/bin/sh
-# 30 */4 * * * sh /Applications/acquia-drupal/python/cs/torrent/autoPush.sh
+# 30 */4 * * * sh /Applications/acquia-drupal/python/cs/torrent/downloads/shell/autoPush.sh
 
 # Go to 'downloads'
 cd /Applications/acquia-drupal/python/cs/torrent/downloads
