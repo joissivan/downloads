@@ -56,3 +56,5 @@ done
 
 ## Send mail to me
 #echo "{filename}下好了" | mutt -s "Welcome Home" sivan.wang@askmedia.com
+
+
