@@ -12,3 +12,9 @@ git commit -am "Add torrents on `date`"
 # Send data to Github
 git push
 
+# Remove movie name in the joissivan.txt
+#
+#
+#
+#
+
