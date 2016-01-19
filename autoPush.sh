@@ -1,0 +1,20 @@
+#!/bin/sh
+# 30 */4 * * * sh /Applications/acquia-drupal/python/cs/torrent/downloads/shell/autoPush.sh
+
+# Go to 'downloads'
+cd /Applications/acquia-drupal/python/cs/torrent/downloads
+
+# Git: add and commit changes
+git pull
+git add .
+git commit -am "Add torrents on `date`"
+
+# Send data to Github
+git push
+
+# Remove movie name in the joissivan.txt
+#
+#
+#
+#
+
